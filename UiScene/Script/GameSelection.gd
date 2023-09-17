@@ -53,7 +53,6 @@ func _on_AgregarJuegoBoton_pressed():
 
 func _notification(what):
 	if what == NOTIFICATION_WM_QUIT_REQUEST:
-		UserManager.save_all()
 		get_tree().quit() # default behavior
 
 func _on_eliminarTodos_pressed():

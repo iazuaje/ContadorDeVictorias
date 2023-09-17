@@ -37,6 +37,7 @@ margin_top = 43.0
 margin_right = 90.0
 margin_bottom = 57.0
 text = "Debug"
+align = 1
 autowrap = true
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

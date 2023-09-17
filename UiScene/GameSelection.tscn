@@ -106,10 +106,10 @@ margin_bottom = 100.0
 rect_min_size = Vector2( 0, 100 )
 
 [node name="AgregarJuegoBoton" type="Button" parent="MarginContainer/VBoxContainer/MarginContainer/PanelContainer"]
-margin_left = 7.0
-margin_top = 7.0
-margin_right = 703.0
-margin_bottom = 93.0
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 708.0
+margin_bottom = 98.0
 size_flags_vertical = 5
 text = "Agregar Juego"
 

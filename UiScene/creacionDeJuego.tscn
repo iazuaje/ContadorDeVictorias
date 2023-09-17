@@ -25,13 +25,13 @@ margin_bottom = 177.5
 theme = ExtResource( 1 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Control"]
-margin_left = 7.0
-margin_top = 7.0
-margin_right = 505.0
-margin_bottom = 348.0
+margin_left = 2.0
+margin_top = 2.0
+margin_right = 510.0
+margin_bottom = 353.0
 
 [node name="MarginContainer" type="MarginContainer" parent="Control/VBoxContainer"]
-margin_right = 498.0
+margin_right = 508.0
 margin_bottom = 63.0
 custom_constants/margin_right = 10
 custom_constants/margin_top = 10
@@ -41,7 +41,7 @@ custom_constants/margin_bottom = 10
 [node name="Label" type="Label" parent="Control/VBoxContainer/MarginContainer"]
 margin_left = 10.0
 margin_top = 10.0
-margin_right = 488.0
+margin_right = 498.0
 margin_bottom = 53.0
 text = "Nuevo Juego"
 align = 1
@@ -49,20 +49,20 @@ valign = 1
 
 [node name="atras" type="Button" parent="Control/VBoxContainer"]
 margin_top = 67.0
-margin_right = 127.0
+margin_right = 131.0
 margin_bottom = 116.0
 size_flags_horizontal = 0
 text = "Atrás"
 
 [node name="HSeparator" type="HSeparator" parent="Control/VBoxContainer"]
 margin_top = 120.0
-margin_right = 498.0
+margin_right = 508.0
 margin_bottom = 124.0
 
 [node name="MarginContainer2" type="MarginContainer" parent="Control/VBoxContainer"]
 margin_top = 128.0
-margin_right = 498.0
-margin_bottom = 248.0
+margin_right = 508.0
+margin_bottom = 258.0
 size_flags_vertical = 3
 custom_constants/margin_right = 10
 custom_constants/margin_top = 10
@@ -72,37 +72,37 @@ custom_constants/margin_bottom = 10
 [node name="VBoxContainer" type="VBoxContainer" parent="Control/VBoxContainer/MarginContainer2"]
 margin_left = 10.0
 margin_top = 10.0
-margin_right = 488.0
-margin_bottom = 110.0
+margin_right = 498.0
+margin_bottom = 120.0
 
 [node name="Label" type="Label" parent="Control/VBoxContainer/MarginContainer2/VBoxContainer"]
-margin_right = 478.0
+margin_right = 488.0
 margin_bottom = 43.0
 text = "Nombre:"
 align = 1
 
 [node name="nombreEdit" type="LineEdit" parent="Control/VBoxContainer/MarginContainer2/VBoxContainer"]
 margin_top = 47.0
-margin_right = 478.0
-margin_bottom = 100.0
+margin_right = 488.0
+margin_bottom = 95.0
 align = 1
 max_length = 20
 expand_to_text_length = true
 placeholder_text = "Tu juego"
 
 [node name="MarginContainer3" type="MarginContainer" parent="Control/VBoxContainer"]
-margin_top = 252.0
-margin_right = 498.0
-margin_bottom = 341.0
+margin_top = 262.0
+margin_right = 508.0
+margin_bottom = 351.0
 custom_constants/margin_right = 20
 custom_constants/margin_top = 20
 custom_constants/margin_left = 20
 custom_constants/margin_bottom = 20
 
 [node name="aceptar" type="Button" parent="Control/VBoxContainer/MarginContainer3"]
-margin_left = 162.0
+margin_left = 165.0
 margin_top = 20.0
-margin_right = 335.0
+margin_right = 342.0
 margin_bottom = 69.0
 size_flags_horizontal = 4
 text = "Aceptar"
